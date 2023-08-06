@@ -31,7 +31,7 @@ public class SeasonManager {
 
     private void showMenu() {
         System.out.println("Podaj porę roku:");
-        for(Season season : Season.values()) {
+        for (Season season : Season.values()) {
             System.out.println(season.getPolishName());
         }
     }
